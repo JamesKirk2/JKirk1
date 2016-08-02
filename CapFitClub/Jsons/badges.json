@@ -1,0 +1,25 @@
+{
+    "Badgedetails":{
+        "activitybadges":
+        [
+         {
+         "badge_id":90,"badge_goal":2000,"badge_completed_value":3000,"badge_name":"Marathon Challenge","badge_unit":"Miles","badge_image_url":"http://behealthyhr6frqzg5m.devcloud.acquia-sites.com/sites/default/files/IMG_1107.jpg"
+         }
+         ],
+        "loggedbadge":
+        [
+         {
+         "badge_id":98,"badge_goal":20,"badge_completed_value":20,"badge_name":"Create Challenges","badge_unit":"Miles","badge_image_url":"http://behealthyhr6frqzg5m.devcloud.acquia-sites.com/sites/default/files/IMG_1107.jpg"
+         }
+         ],
+        "challengebadges":
+        [
+         {
+         "badge_id":91,"badge_goal":20,"badge_completed_value":100,"badge_name":"Marathon Challenge","badge_unit":"Calories","badge_image_url":"http://behealthyhr6frqzg5m.devcloud.acquia-sites.com/sites/default/files/IMG_1107.jpg","challenge_id":126
+         },
+         {
+         "badge_id":92,"badge_goal":80,"badge_completed_value":100,"badge_name":"Marathon Challenge","badge_unit":"Time","badge_image_url":"http://behealthyhr6frqzg5m.devcloud.acquia-sites.com/sites/default/files/IMG_1107.jpg","challenge_id":36
+         }
+         ]
+    }
+}

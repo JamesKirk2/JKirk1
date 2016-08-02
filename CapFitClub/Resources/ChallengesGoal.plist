@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>walking</key>
+	<array>
+		<string>Time</string>
+		<string>Distance</string>
+		<string>Steps</string>
+		<string>Calories</string>
+	</array>
+	<key>running</key>
+	<array>
+		<string>Time</string>
+		<string>Distance</string>
+		<string>Steps</string>
+		<string>Calories</string>
+	</array>
+	<key>swimming</key>
+	<array>
+		<string>Time</string>
+		<string>Distance</string>
+		<string>Calories</string>
+	</array>
+	<key>cycling</key>
+	<array>
+		<string>Time</string>
+		<string>Distance</string>
+		<string>Calories</string>
+	</array>
+	<key>rowing</key>
+	<array>
+		<string>Time</string>
+		<string>Distance</string>
+		<string>Calories</string>
+	</array>
+	<key>climbing</key>
+	<array>
+		<string>Height</string>
+		<string>Floors</string>
+		<string>Steps</string>
+	</array>
+	<key>climbing stairs</key>
+	<array>
+		<string>Height</string>
+		<string>Floors</string>
+		<string>Steps</string>
+	</array>
+	<key>rock climbing</key>
+	<array>
+		<string>Height</string>
+		<string>Time</string>
+	</array>
+	<key>gym session</key>
+	<array>
+		<string>Time</string>
+		<string>Calories</string>
+	</array>
+	<key>gym class</key>
+	<array>
+		<string>Time</string>
+		<string>Calories</string>
+	</array>
+	<key>yoga</key>
+	<array>
+		<string>Time</string>
+	</array>
+	<key>tennis</key>
+	<array>
+		<string>Time</string>
+		<string>Calories</string>
+	</array>
+	<key>golf</key>
+	<array>
+		<string>Time</string>
+		<string>Calories</string>
+	</array>
+	<key>squash</key>
+	<array>
+		<string>Time</string>
+		<string>Calories</string>
+	</array>
+	<key>badminton</key>
+	<array>
+		<string>Time</string>
+		<string>Calories</string>
+	</array>
+	<key>football</key>
+	<array>
+		<string>Time</string>
+		<string>Calories</string>
+	</array>
+	<key>rugby</key>
+	<array>
+		<string>Time</string>
+		<string>Calories</string>
+	</array>
+	<key>others</key>
+	<array>
+		<string>Time</string>
+		<string>Distance</string>
+		<string>Calories</string>
+	</array>
+</dict>
+</plist>

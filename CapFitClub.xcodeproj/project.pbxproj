@@ -1,0 +1,1143 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9502D51C1C9FF41000F2421D /* CreateUpdateChallengeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9502D51B1C9FF41000F2421D /* CreateUpdateChallengeService.m */; };
+		950421B41C7D89C600AE4408 /* saveuserprofile.json in Resources */ = {isa = PBXBuildFile; fileRef = 950421B21C7D89C600AE4408 /* saveuserprofile.json */; };
+		950421B51C7D89C600AE4408 /* userprofile.json in Resources */ = {isa = PBXBuildFile; fileRef = 950421B31C7D89C600AE4408 /* userprofile.json */; };
+		950421B81C7DBDD300AE4408 /* PTSans.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 950421B71C7DBDD300AE4408 /* PTSans.ttf */; };
+		950421BB1C7DC84600AE4408 /* FilledChallengesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950421BA1C7DC84600AE4408 /* FilledChallengesView.m */; };
+		950427221C8993D500A5DD9E /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 950427211C8993D500A5DD9E /* UIImage+Resize.m */; };
+		95063C231C6087C4001F6262 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95063C221C6087C4001F6262 /* main.m */; };
+		95063C261C6087C4001F6262 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95063C251C6087C4001F6262 /* AppDelegate.m */; };
+		95063C2F1C6087C4001F6262 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95063C2D1C6087C4001F6262 /* Main.storyboard */; };
+		95063C311C6087C4001F6262 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95063C301C6087C4001F6262 /* Assets.xcassets */; };
+		95063C3F1C6087C4001F6262 /* CapFitClubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95063C3E1C6087C4001F6262 /* CapFitClubTests.m */; };
+		95063C531C60B512001F6262 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95063C501C60B512001F6262 /* ProfileViewController.m */; };
+		95063C541C60B512001F6262 /* SetChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95063C521C60B512001F6262 /* SetChallengeViewController.m */; };
+		95066DC51CAD42B200FCA952 /* JoinChallengeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95066DC41CAD42B200FCA952 /* JoinChallengeService.m */; };
+		95070B741C85ABB100B699EF /* SetChallengeGoalViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95070B731C85ABB100B699EF /* SetChallengeGoalViewCell.m */; };
+		95070B761C85B55A00B699EF /* ChallengesGoal.plist in Resources */ = {isa = PBXBuildFile; fileRef = 95070B751C85B55A00B699EF /* ChallengesGoal.plist */; };
+		95082A3B1C842AA700292B58 /* SelectChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95082A3A1C842AA700292B58 /* SelectChallengeViewController.m */; };
+		95082A3E1C84413F00292B58 /* UITableViewCell+DisclosureIndicatorColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 95082A3D1C84413F00292B58 /* UITableViewCell+DisclosureIndicatorColor.m */; };
+		95082A411C8442D500292B58 /* SelectChallengeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95082A401C8442D500292B58 /* SelectChallengeCell.m */; };
+		95082A471C845D1E00292B58 /* SetActivityAndImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95082A461C845D1E00292B58 /* SetActivityAndImageCell.m */; };
+		95082A4A1C84710800292B58 /* DescriptionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95082A491C84710800292B58 /* DescriptionViewCell.m */; };
+		950840F01C86EBCD00CCFEAE /* SearchableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 950840EF1C86EBCD00CCFEAE /* SearchableViewCell.m */; };
+		950840F31C870FBB00CCFEAE /* SetChallengeConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950840F21C870FBB00CCFEAE /* SetChallengeConfirmationViewController.m */; };
+		95086FC71C6C5E7300760CF1 /* SharedSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95086FC61C6C5E7300760CF1 /* SharedSessionManager.m */; };
+		95086FCA1C6C601500760CF1 /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95086FC91C6C601500760CF1 /* LoginService.m */; };
+		95086FD11C6CD05500760CF1 /* CustomTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95086FD01C6CD05500760CF1 /* CustomTabBar.m */; };
+		95086FD61C6CD12600760CF1 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95086FD51C6CD12600760CF1 /* CustomTabBarController.m */; };
+		9509BBF21CB53FD8006B5988 /* LogoutService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9509BBF11CB53FD8006B5988 /* LogoutService.m */; };
+		9509C0091C995C100054EB48 /* challengetypelist.json in Resources */ = {isa = PBXBuildFile; fileRef = 9509C0081C995C100054EB48 /* challengetypelist.json */; };
+		9509C00C1C9961690054EB48 /* ChallengeTypeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9509C00B1C9961690054EB48 /* ChallengeTypeService.m */; };
+		9509C0111C99625D0054EB48 /* ChallengeType+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 9509C00E1C99625D0054EB48 /* ChallengeType+CoreDataProperties.m */; };
+		9509C0121C99625D0054EB48 /* ChallengeType.m in Sources */ = {isa = PBXBuildFile; fileRef = 9509C0101C99625D0054EB48 /* ChallengeType.m */; };
+		9509D4AF1C92BCE800950767 /* CapFitClubModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9509D4AC1C92BCE800950767 /* CapFitClubModel.xcdatamodeld */; };
+		950A5B801C71ADF800FE0E77 /* CustomPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 950A5B7F1C71ADF800FE0E77 /* CustomPickerView.m */; };
+		9510C99F1CAA5143005A2CFF /* UpdateLogActivityService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9510C99E1CAA5143005A2CFF /* UpdateLogActivityService.m */; };
+		95131F291C7F084D0068247C /* challenges.json in Resources */ = {isa = PBXBuildFile; fileRef = 95131F281C7F084D0068247C /* challenges.json */; };
+		95131F2F1C7F26E90068247C /* GetChallengesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95131F2E1C7F26E90068247C /* GetChallengesService.m */; };
+		951E50F11CBD18B50070FB00 /* GetBadgesService.m in Sources */ = {isa = PBXBuildFile; fileRef = 951E50F01CBD18B50070FB00 /* GetBadgesService.m */; };
+		95269DC51C61FDAB00756407 /* LogActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95269DC41C61FDAB00756407 /* LogActivityViewController.m */; };
+		95269DC81C61FDE200756407 /* JoinChallengeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95269DC71C61FDE200756407 /* JoinChallengeViewController.m */; };
+		954373C81C92E0FD00B12E15 /* ProfileUser+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 954373C51C92E0FD00B12E15 /* ProfileUser+CoreDataProperties.m */; };
+		954373C91C92E0FD00B12E15 /* ProfileUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 954373C71C92E0FD00B12E15 /* ProfileUser.m */; };
+		955051C51CBE6E7F0064D6B8 /* badges.json in Resources */ = {isa = PBXBuildFile; fileRef = 955051C41CBE6E7F0064D6B8 /* badges.json */; };
+		955ADA931C905E5E003340B1 /* MailComposerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 955ADA921C905E5E003340B1 /* MailComposerController.m */; };
+		95667C161C7C83EC00DEA945 /* UIDevice+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 95667C151C7C83EC00DEA945 /* UIDevice+Size.m */; };
+		95667C191C7C9AE500DEA945 /* CountsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95667C181C7C9AE500DEA945 /* CountsViewCell.m */; };
+		95667C1C1C7C9BF900DEA945 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 95667C1B1C7C9BF900DEA945 /* CustomTextField.m */; };
+		95667C1F1C7CA58300DEA945 /* ChallengesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95667C1E1C7CA58300DEA945 /* ChallengesViewCell.m */; };
+		9573AE791CC8B7C700C9A85B /* CustomAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9573AE781CC8B7C700C9A85B /* CustomAlertViewController.m */; };
+		957A4DDE1C6B4E9D00529B61 /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A4DDD1C6B4E9D00529B61 /* DashboardViewController.m */; };
+		957A4DE11C6B7A6B00529B61 /* BadgesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A4DE01C6B7A6B00529B61 /* BadgesViewController.m */; };
+		957A4DE41C6B835600529B61 /* ProfileViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A4DE31C6B835600529B61 /* ProfileViewCell.m */; };
+		957A4DE71C6B838000529B61 /* ProfileImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 957A4DE61C6B838000529B61 /* ProfileImageViewCell.m */; };
+		957E51B71CBBDD5600441533 /* BadgesViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 957E51B61CBBDD5600441533 /* BadgesViewCell.m */; };
+		958820C11CAE579B00231D01 /* LeaveDeleteChallengeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 958820C01CAE579B00231D01 /* LeaveDeleteChallengeService.m */; };
+		95ADB2EE1C69E5380091B819 /* AppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 95ADB2ED1C69E5380091B819 /* AppConstants.m */; };
+		95B4D4BF1C6E1C1700347430 /* UserProfileService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B4D4BE1C6E1C1700347430 /* UserProfileService.m */; };
+		95B4D4C31C6E1FEB00347430 /* EntitiesFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B4D4C21C6E1FEB00347430 /* EntitiesFetcher.m */; };
+		95B7A8541C6870C90043B32F /* UINavigationController+TransparentNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B7A8531C6870C90043B32F /* UINavigationController+TransparentNavigationBar.m */; };
+		95B7A8581C687A3D0043B32F /* CommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B7A8571C687A3D0043B32F /* CommonFunctions.m */; };
+		95B7A8611C689A840043B32F /* NSFetchRequest+SGTEntityKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B7A85B1C689A840043B32F /* NSFetchRequest+SGTEntityKit.m */; };
+		95B7A8621C689A840043B32F /* SGTEntityFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B7A85D1C689A840043B32F /* SGTEntityFetcher.m */; };
+		95B7A8631C689A840043B32F /* SGTEntityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B7A8601C689A840043B32F /* SGTEntityManager.m */; };
+		95B7A8661C68A78B0043B32F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95B7A8651C68A78B0043B32F /* LoginViewController.m */; };
+		95B7A86D1C68C75D0043B32F /* login.json in Resources */ = {isa = PBXBuildFile; fileRef = 95B7A86C1C68C75D0043B32F /* login.json */; };
+		95C7E0101C96BBCC00BC1AA6 /* ConfirmationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95C7E00F1C96BBCC00BC1AA6 /* ConfirmationViewController.m */; };
+		95CD8AED1CB28E440086539F /* AFHTTPRequestSerializer+Headers.m in Sources */ = {isa = PBXBuildFile; fileRef = 95CD8AEC1CB28E440086539F /* AFHTTPRequestSerializer+Headers.m */; };
+		95EF530D1C8ED7BF008A25E7 /* LeaveChallengeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95EF530C1C8ED7BF008A25E7 /* LeaveChallengeViewCell.m */; };
+		95F669AF1C92C6DF00B4F7AE /* MainChallenge+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F669AC1C92C6DF00B4F7AE /* MainChallenge+CoreDataProperties.m */; };
+		95F669B01C92C6DF00B4F7AE /* MainChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F669AE1C92C6DF00B4F7AE /* MainChallenge.m */; };
+		95F669B81C92C86E00B4F7AE /* Challenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F669B51C92C86E00B4F7AE /* Challenge.m */; };
+		95F669B91C92C86E00B4F7AE /* LocalChallenge.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F669B71C92C86E00B4F7AE /* LocalChallenge.m */; };
+		95F75FB51C9186120073705A /* NSFileManager+FileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F75FB41C9186120073705A /* NSFileManager+FileHelper.m */; };
+		95F75FB81C91A3E70073705A /* ChallengeForJoiningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F75FB71C91A3E70073705A /* ChallengeForJoiningViewController.m */; };
+		95F75FBB1C91B2C70073705A /* LocalChallenge+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F75FBA1C91B2C70073705A /* LocalChallenge+CoreDataProperties.m */; };
+		95F75FBE1C91B8000073705A /* SearchChallengeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F75FBD1C91B8000073705A /* SearchChallengeService.m */; };
+		95F75FC01C91B9BA0073705A /* joinchallenges.json in Resources */ = {isa = PBXBuildFile; fileRef = 95F75FBF1C91B9BA0073705A /* joinchallenges.json */; };
+		95F81A9F1CE1B88C0068BDA6 /* WonBadgeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F81A9E1CE1B88C0068BDA6 /* WonBadgeViewCell.m */; };
+		95F81AA21CE1EB1B0068BDA6 /* BadgeBaseBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F81AA11CE1EB1B0068BDA6 /* BadgeBaseBackgroundView.m */; };
+		95F8EA441CA93A1700DC4332 /* CompletedChallengesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F8EA431CA93A1700DC4332 /* CompletedChallengesViewController.m */; };
+		95F8EA471CA941CF00DC4332 /* AddActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F8EA461CA941CF00DC4332 /* AddActivityViewController.m */; };
+		95F8EA4A1CA962A900DC4332 /* LogActivityViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F8EA491CA962A900DC4332 /* LogActivityViewCell.m */; };
+		95F8EA4D1CA962BB00DC4332 /* LogActivityUpdateCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F8EA4C1CA962BB00DC4332 /* LogActivityUpdateCell.m */; };
+		95FD001A1C884BC300FFDB9A /* ChallengeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FD00191C884BC300FFDB9A /* ChallengeDetailViewController.m */; };
+		95FD001E1C885F4400FFDB9A /* Challenge+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FD001D1C885F4400FFDB9A /* Challenge+CoreDataProperties.m */; };
+		95FD00211C886C8B00FFDB9A /* CircularProgressViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FD00201C886C8B00FFDB9A /* CircularProgressViewCell.m */; };
+		95FF5D781C63860300B64F80 /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FF5D6B1C63860300B64F80 /* User+CoreDataProperties.m */; };
+		95FF5D791C63860300B64F80 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FF5D6D1C63860300B64F80 /* User.m */; };
+		95FF5D7A1C63860300B64F80 /* Badge+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FF5D6F1C63860300B64F80 /* Badge+CoreDataProperties.m */; };
+		95FF5D7B1C63860300B64F80 /* Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FF5D711C63860300B64F80 /* Badge.m */; };
+		95FF5D7C1C63860300B64F80 /* Activity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FF5D731C63860300B64F80 /* Activity+CoreDataProperties.m */; };
+		95FF5D7D1C63860300B64F80 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FF5D751C63860300B64F80 /* Activity.m */; };
+		B76D4806570D7F6ED88FBC22 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8BD53EC40CE5D75A1FA6E3 /* Pods.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95063C3B1C6087C4001F6262 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95063C161C6087C4001F6262 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95063C1D1C6087C4001F6262;
+			remoteInfo = CapFitClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B2C29EAFF9D1B4829069F0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		369D2FE03CCFAB9BBCEEFAAE /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9502D51A1C9FF41000F2421D /* CreateUpdateChallengeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateUpdateChallengeService.h; path = Services/CreateUpdateChallengeService.h; sourceTree = "<group>"; };
+		9502D51B1C9FF41000F2421D /* CreateUpdateChallengeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateUpdateChallengeService.m; path = Services/CreateUpdateChallengeService.m; sourceTree = "<group>"; };
+		9502D51D1C9FFFF400F2421D /* CapFitClubModel v6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CapFitClubModel v6.xcdatamodel"; sourceTree = "<group>"; };
+		9502D51E1CA00DCB00F2421D /* CapFitClubModel v7.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CapFitClubModel v7.xcdatamodel"; sourceTree = "<group>"; };
+		950421B21C7D89C600AE4408 /* saveuserprofile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = saveuserprofile.json; path = Jsons/saveuserprofile.json; sourceTree = "<group>"; };
+		950421B31C7D89C600AE4408 /* userprofile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = userprofile.json; path = Jsons/userprofile.json; sourceTree = "<group>"; };
+		950421B71C7DBDD300AE4408 /* PTSans.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PTSans.ttf; path = Resources/PTSans.ttf; sourceTree = "<group>"; };
+		950421B91C7DC84600AE4408 /* FilledChallengesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilledChallengesView.h; path = Views/FilledChallengesView.h; sourceTree = "<group>"; };
+		950421BA1C7DC84600AE4408 /* FilledChallengesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FilledChallengesView.m; path = Views/FilledChallengesView.m; sourceTree = "<group>"; };
+		950427201C8993D500A5DD9E /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "Categories/UIImage+Resize.h"; sourceTree = "<group>"; };
+		950427211C8993D500A5DD9E /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "Categories/UIImage+Resize.m"; sourceTree = "<group>"; };
+		95063C1E1C6087C4001F6262 /* BeHealthy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeHealthy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95063C221C6087C4001F6262 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95063C241C6087C4001F6262 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95063C251C6087C4001F6262 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95063C2E1C6087C4001F6262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95063C301C6087C4001F6262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95063C351C6087C4001F6262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95063C3A1C6087C4001F6262 /* CapFitClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapFitClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95063C3E1C6087C4001F6262 /* CapFitClubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CapFitClubTests.m; sourceTree = "<group>"; };
+		95063C401C6087C4001F6262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95063C4F1C60B512001F6262 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = Controllers/ProfileViewController.h; sourceTree = "<group>"; };
+		95063C501C60B512001F6262 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = Controllers/ProfileViewController.m; sourceTree = "<group>"; };
+		95063C511C60B512001F6262 /* SetChallengeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetChallengeViewController.h; path = Controllers/SetChallengeViewController.h; sourceTree = "<group>"; };
+		95063C521C60B512001F6262 /* SetChallengeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetChallengeViewController.m; path = Controllers/SetChallengeViewController.m; sourceTree = "<group>"; };
+		95066DC21CACF48E00FCA952 /* CapFitClubModel v9.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CapFitClubModel v9.xcdatamodel"; sourceTree = "<group>"; };
+		95066DC31CAD42B200FCA952 /* JoinChallengeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoinChallengeService.h; path = Services/JoinChallengeService.h; sourceTree = "<group>"; };
+		95066DC41CAD42B200FCA952 /* JoinChallengeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JoinChallengeService.m; path = Services/JoinChallengeService.m; sourceTree = "<group>"; };
+		95070B721C85ABB100B699EF /* SetChallengeGoalViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetChallengeGoalViewCell.h; path = Views/SetChallengeGoalViewCell.h; sourceTree = "<group>"; };
+		95070B731C85ABB100B699EF /* SetChallengeGoalViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetChallengeGoalViewCell.m; path = Views/SetChallengeGoalViewCell.m; sourceTree = "<group>"; };
+		95070B751C85B55A00B699EF /* ChallengesGoal.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ChallengesGoal.plist; path = Resources/ChallengesGoal.plist; sourceTree = "<group>"; };
+		95082A391C842AA700292B58 /* SelectChallengeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectChallengeViewController.h; path = Controllers/SelectChallengeViewController.h; sourceTree = "<group>"; };
+		95082A3A1C842AA700292B58 /* SelectChallengeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectChallengeViewController.m; path = Controllers/SelectChallengeViewController.m; sourceTree = "<group>"; };
+		95082A3C1C84413F00292B58 /* UITableViewCell+DisclosureIndicatorColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UITableViewCell+DisclosureIndicatorColor.h"; path = "Categories/UITableViewCell+DisclosureIndicatorColor.h"; sourceTree = "<group>"; };
+		95082A3D1C84413F00292B58 /* UITableViewCell+DisclosureIndicatorColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UITableViewCell+DisclosureIndicatorColor.m"; path = "Categories/UITableViewCell+DisclosureIndicatorColor.m"; sourceTree = "<group>"; };
+		95082A3F1C8442D500292B58 /* SelectChallengeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SelectChallengeCell.h; path = Views/SelectChallengeCell.h; sourceTree = "<group>"; };
+		95082A401C8442D500292B58 /* SelectChallengeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SelectChallengeCell.m; path = Views/SelectChallengeCell.m; sourceTree = "<group>"; };
+		95082A451C845D1E00292B58 /* SetActivityAndImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetActivityAndImageCell.h; path = Views/SetActivityAndImageCell.h; sourceTree = "<group>"; };
+		95082A461C845D1E00292B58 /* SetActivityAndImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetActivityAndImageCell.m; path = Views/SetActivityAndImageCell.m; sourceTree = "<group>"; };
+		95082A481C84710800292B58 /* DescriptionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DescriptionViewCell.h; path = Views/DescriptionViewCell.h; sourceTree = "<group>"; };
+		95082A491C84710800292B58 /* DescriptionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DescriptionViewCell.m; path = Views/DescriptionViewCell.m; sourceTree = "<group>"; };
+		950840EE1C86EBCD00CCFEAE /* SearchableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchableViewCell.h; path = Views/SearchableViewCell.h; sourceTree = "<group>"; };
+		950840EF1C86EBCD00CCFEAE /* SearchableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchableViewCell.m; path = Views/SearchableViewCell.m; sourceTree = "<group>"; };
+		950840F11C870FBB00CCFEAE /* SetChallengeConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SetChallengeConfirmationViewController.h; path = Controllers/SetChallengeConfirmationViewController.h; sourceTree = "<group>"; };
+		950840F21C870FBB00CCFEAE /* SetChallengeConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SetChallengeConfirmationViewController.m; path = Controllers/SetChallengeConfirmationViewController.m; sourceTree = "<group>"; };
+		95086FC51C6C5E7300760CF1 /* SharedSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SharedSessionManager.h; path = Services/SharedSessionManager.h; sourceTree = "<group>"; };
+		95086FC61C6C5E7300760CF1 /* SharedSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SharedSessionManager.m; path = Services/SharedSessionManager.m; sourceTree = "<group>"; };
+		95086FC81C6C601500760CF1 /* LoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginService.h; path = Services/LoginService.h; sourceTree = "<group>"; };
+		95086FC91C6C601500760CF1 /* LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginService.m; path = Services/LoginService.m; sourceTree = "<group>"; };
+		95086FCF1C6CD05500760CF1 /* CustomTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTabBar.h; path = Views/CustomTabBar.h; sourceTree = "<group>"; };
+		95086FD01C6CD05500760CF1 /* CustomTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTabBar.m; path = Views/CustomTabBar.m; sourceTree = "<group>"; };
+		95086FD41C6CD12600760CF1 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTabBarController.h; path = Controllers/BaseControllers/CustomTabBarController.h; sourceTree = "<group>"; };
+		95086FD51C6CD12600760CF1 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTabBarController.m; path = Controllers/BaseControllers/CustomTabBarController.m; sourceTree = "<group>"; };
+		9509BBF01CB53FD8006B5988 /* LogoutService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogoutService.h; path = Services/LogoutService.h; sourceTree = "<group>"; };
+		9509BBF11CB53FD8006B5988 /* LogoutService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogoutService.m; path = Services/LogoutService.m; sourceTree = "<group>"; };
+		9509C0071C99323F0054EB48 /* CapFitClubModel v4.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CapFitClubModel v4.xcdatamodel"; sourceTree = "<group>"; };
+		9509C0081C995C100054EB48 /* challengetypelist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = challengetypelist.json; path = Jsons/challengetypelist.json; sourceTree = "<group>"; };
+		9509C00A1C9961690054EB48 /* ChallengeTypeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChallengeTypeService.h; path = Services/ChallengeTypeService.h; sourceTree = "<group>"; };
+		9509C00B1C9961690054EB48 /* ChallengeTypeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChallengeTypeService.m; path = Services/ChallengeTypeService.m; sourceTree = "<group>"; };
+		9509C00D1C99625D0054EB48 /* ChallengeType+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ChallengeType+CoreDataProperties.h"; path = "Entities/ChallengeType+CoreDataProperties.h"; sourceTree = "<group>"; };
+		9509C00E1C99625D0054EB48 /* ChallengeType+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ChallengeType+CoreDataProperties.m"; path = "Entities/ChallengeType+CoreDataProperties.m"; sourceTree = "<group>"; };
+		9509C00F1C99625D0054EB48 /* ChallengeType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChallengeType.h; path = Entities/ChallengeType.h; sourceTree = "<group>"; };
+		9509C0101C99625D0054EB48 /* ChallengeType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChallengeType.m; path = Entities/ChallengeType.m; sourceTree = "<group>"; };
+		9509D4AD1C92BCE800950767 /* CapFitClubModel v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CapFitClubModel v2.xcdatamodel"; sourceTree = "<group>"; };
+		9509D4AE1C92BCE800950767 /* CapFitClubModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CapFitClubModel.xcdatamodel; sourceTree = "<group>"; };
+		950A5B7E1C71ADF800FE0E77 /* CustomPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomPickerView.h; path = Views/CustomPickerView.h; sourceTree = "<group>"; };
+		950A5B7F1C71ADF800FE0E77 /* CustomPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomPickerView.m; path = Views/CustomPickerView.m; sourceTree = "<group>"; };
+		9510C99D1CAA5143005A2CFF /* UpdateLogActivityService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UpdateLogActivityService.h; path = Services/UpdateLogActivityService.h; sourceTree = "<group>"; };
+		9510C99E1CAA5143005A2CFF /* UpdateLogActivityService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UpdateLogActivityService.m; path = Services/UpdateLogActivityService.m; sourceTree = "<group>"; };
+		95131F281C7F084D0068247C /* challenges.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = challenges.json; path = Jsons/challenges.json; sourceTree = "<group>"; };
+		95131F2D1C7F26E90068247C /* GetChallengesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetChallengesService.h; path = Services/GetChallengesService.h; sourceTree = "<group>"; };
+		95131F2E1C7F26E90068247C /* GetChallengesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetChallengesService.m; path = Services/GetChallengesService.m; sourceTree = "<group>"; };
+		951E50EF1CBD18B50070FB00 /* GetBadgesService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GetBadgesService.h; path = Services/GetBadgesService.h; sourceTree = "<group>"; };
+		951E50F01CBD18B50070FB00 /* GetBadgesService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GetBadgesService.m; path = Services/GetBadgesService.m; sourceTree = "<group>"; };
+		95269DC31C61FDAB00756407 /* LogActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogActivityViewController.h; path = Controllers/LogActivityViewController.h; sourceTree = "<group>"; };
+		95269DC41C61FDAB00756407 /* LogActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogActivityViewController.m; path = Controllers/LogActivityViewController.m; sourceTree = "<group>"; };
+		95269DC61C61FDE200756407 /* JoinChallengeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JoinChallengeViewController.h; path = Controllers/JoinChallengeViewController.h; sourceTree = "<group>"; };
+		95269DC71C61FDE200756407 /* JoinChallengeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JoinChallengeViewController.m; path = Controllers/JoinChallengeViewController.m; sourceTree = "<group>"; };
+		954373C41C92E0FD00B12E15 /* ProfileUser+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ProfileUser+CoreDataProperties.h"; path = "Entities/ProfileUser+CoreDataProperties.h"; sourceTree = "<group>"; };
+		954373C51C92E0FD00B12E15 /* ProfileUser+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ProfileUser+CoreDataProperties.m"; path = "Entities/ProfileUser+CoreDataProperties.m"; sourceTree = "<group>"; };
+		954373C61C92E0FD00B12E15 /* ProfileUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileUser.h; path = Entities/ProfileUser.h; sourceTree = "<group>"; };
+		954373C71C92E0FD00B12E15 /* ProfileUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileUser.m; path = Entities/ProfileUser.m; sourceTree = "<group>"; };
+		955051C41CBE6E7F0064D6B8 /* badges.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = badges.json; path = Jsons/badges.json; sourceTree = "<group>"; };
+		9554477E1CA17CBF0080F46D /* CapFitClubModel v8.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CapFitClubModel v8.xcdatamodel"; sourceTree = "<group>"; };
+		955ADA911C905E5E003340B1 /* MailComposerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MailComposerController.h; path = Controllers/MailComposerController.h; sourceTree = "<group>"; };
+		955ADA921C905E5E003340B1 /* MailComposerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MailComposerController.m; path = Controllers/MailComposerController.m; sourceTree = "<group>"; };
+		95667C141C7C83EC00DEA945 /* UIDevice+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Size.h"; path = "Categories/UIDevice+Size.h"; sourceTree = "<group>"; };
+		95667C151C7C83EC00DEA945 /* UIDevice+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Size.m"; path = "Categories/UIDevice+Size.m"; sourceTree = "<group>"; };
+		95667C171C7C9AE500DEA945 /* CountsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CountsViewCell.h; path = Views/CountsViewCell.h; sourceTree = "<group>"; };
+		95667C181C7C9AE500DEA945 /* CountsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CountsViewCell.m; path = Views/CountsViewCell.m; sourceTree = "<group>"; };
+		95667C1A1C7C9BF900DEA945 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTextField.h; path = Views/CustomTextField.h; sourceTree = "<group>"; };
+		95667C1B1C7C9BF900DEA945 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTextField.m; path = Views/CustomTextField.m; sourceTree = "<group>"; };
+		95667C1D1C7CA58300DEA945 /* ChallengesViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChallengesViewCell.h; path = Views/ChallengesViewCell.h; sourceTree = "<group>"; };
+		95667C1E1C7CA58300DEA945 /* ChallengesViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChallengesViewCell.m; path = Views/ChallengesViewCell.m; sourceTree = "<group>"; };
+		9573AE771CC8B7C700C9A85B /* CustomAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomAlertViewController.h; path = Controllers/BaseControllers/CustomAlertViewController.h; sourceTree = "<group>"; };
+		9573AE781CC8B7C700C9A85B /* CustomAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomAlertViewController.m; path = Controllers/BaseControllers/CustomAlertViewController.m; sourceTree = "<group>"; };
+		957A4DDC1C6B4E9D00529B61 /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DashboardViewController.h; path = Controllers/DashboardViewController.h; sourceTree = "<group>"; };
+		957A4DDD1C6B4E9D00529B61 /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DashboardViewController.m; path = Controllers/DashboardViewController.m; sourceTree = "<group>"; };
+		957A4DDF1C6B7A6B00529B61 /* BadgesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BadgesViewController.h; path = Controllers/BadgesViewController.h; sourceTree = "<group>"; };
+		957A4DE01C6B7A6B00529B61 /* BadgesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadgesViewController.m; path = Controllers/BadgesViewController.m; sourceTree = "<group>"; };
+		957A4DE21C6B835600529B61 /* ProfileViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewCell.h; path = Views/ProfileViewCell.h; sourceTree = "<group>"; };
+		957A4DE31C6B835600529B61 /* ProfileViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewCell.m; path = Views/ProfileViewCell.m; sourceTree = "<group>"; };
+		957A4DE51C6B838000529B61 /* ProfileImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileImageViewCell.h; path = Views/ProfileImageViewCell.h; sourceTree = "<group>"; };
+		957A4DE61C6B838000529B61 /* ProfileImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileImageViewCell.m; path = Views/ProfileImageViewCell.m; sourceTree = "<group>"; };
+		957E51B51CBBDD5600441533 /* BadgesViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BadgesViewCell.h; path = Views/BadgesViewCell.h; sourceTree = "<group>"; };
+		957E51B61CBBDD5600441533 /* BadgesViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadgesViewCell.m; path = Views/BadgesViewCell.m; sourceTree = "<group>"; };
+		958820BF1CAE579B00231D01 /* LeaveDeleteChallengeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaveDeleteChallengeService.h; path = Services/LeaveDeleteChallengeService.h; sourceTree = "<group>"; };
+		958820C01CAE579B00231D01 /* LeaveDeleteChallengeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaveDeleteChallengeService.m; path = Services/LeaveDeleteChallengeService.m; sourceTree = "<group>"; };
+		95ADB2EC1C69E5380091B819 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		95ADB2ED1C69E5380091B819 /* AppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConstants.m; sourceTree = "<group>"; };
+		95B4D4BD1C6E1C1700347430 /* UserProfileService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserProfileService.h; path = Services/UserProfileService.h; sourceTree = "<group>"; };
+		95B4D4BE1C6E1C1700347430 /* UserProfileService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserProfileService.m; path = Services/UserProfileService.m; sourceTree = "<group>"; };
+		95B4D4C11C6E1FEB00347430 /* EntitiesFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EntitiesFetcher.h; path = Fetchers/EntitiesFetcher.h; sourceTree = "<group>"; };
+		95B4D4C21C6E1FEB00347430 /* EntitiesFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EntitiesFetcher.m; path = Fetchers/EntitiesFetcher.m; sourceTree = "<group>"; };
+		95B7A8521C6870C90043B32F /* UINavigationController+TransparentNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+TransparentNavigationBar.h"; path = "Categories/UINavigationController+TransparentNavigationBar.h"; sourceTree = "<group>"; };
+		95B7A8531C6870C90043B32F /* UINavigationController+TransparentNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+TransparentNavigationBar.m"; path = "Categories/UINavigationController+TransparentNavigationBar.m"; sourceTree = "<group>"; };
+		95B7A8561C687A3D0043B32F /* CommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunctions.h; sourceTree = "<group>"; };
+		95B7A8571C687A3D0043B32F /* CommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunctions.m; sourceTree = "<group>"; };
+		95B7A85A1C689A840043B32F /* NSFetchRequest+SGTEntityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFetchRequest+SGTEntityKit.h"; path = "Libraries/SGTEntityKit/NSFetchRequest+SGTEntityKit.h"; sourceTree = "<group>"; };
+		95B7A85B1C689A840043B32F /* NSFetchRequest+SGTEntityKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFetchRequest+SGTEntityKit.m"; path = "Libraries/SGTEntityKit/NSFetchRequest+SGTEntityKit.m"; sourceTree = "<group>"; };
+		95B7A85C1C689A840043B32F /* SGTEntityFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGTEntityFetcher.h; path = Libraries/SGTEntityKit/SGTEntityFetcher.h; sourceTree = "<group>"; };
+		95B7A85D1C689A840043B32F /* SGTEntityFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGTEntityFetcher.m; path = Libraries/SGTEntityKit/SGTEntityFetcher.m; sourceTree = "<group>"; };
+		95B7A85E1C689A840043B32F /* SGTEntityKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGTEntityKit.h; path = Libraries/SGTEntityKit/SGTEntityKit.h; sourceTree = "<group>"; };
+		95B7A85F1C689A840043B32F /* SGTEntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGTEntityManager.h; path = Libraries/SGTEntityKit/SGTEntityManager.h; sourceTree = "<group>"; };
+		95B7A8601C689A840043B32F /* SGTEntityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SGTEntityManager.m; path = Libraries/SGTEntityKit/SGTEntityManager.m; sourceTree = "<group>"; };
+		95B7A8641C68A78B0043B32F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Controllers/LoginViewController.h; sourceTree = "<group>"; };
+		95B7A8651C68A78B0043B32F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Controllers/LoginViewController.m; sourceTree = "<group>"; };
+		95B7A8671C68AB980043B32F /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		95B7A86C1C68C75D0043B32F /* login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = login.json; path = Jsons/login.json; sourceTree = "<group>"; };
+		95C7E00E1C96BBCC00BC1AA6 /* ConfirmationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfirmationViewController.h; path = Controllers/ConfirmationViewController.h; sourceTree = "<group>"; };
+		95C7E00F1C96BBCC00BC1AA6 /* ConfirmationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfirmationViewController.m; path = Controllers/ConfirmationViewController.m; sourceTree = "<group>"; };
+		95CD8AEB1CB28E440086539F /* AFHTTPRequestSerializer+Headers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "AFHTTPRequestSerializer+Headers.h"; path = "Categories/AFHTTPRequestSerializer+Headers.h"; sourceTree = "<group>"; };
+		95CD8AEC1CB28E440086539F /* AFHTTPRequestSerializer+Headers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "AFHTTPRequestSerializer+Headers.m"; path = "Categories/AFHTTPRequestSerializer+Headers.m"; sourceTree = "<group>"; };
+		95EF530B1C8ED7BF008A25E7 /* LeaveChallengeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LeaveChallengeViewCell.h; path = Views/LeaveChallengeViewCell.h; sourceTree = "<group>"; };
+		95EF530C1C8ED7BF008A25E7 /* LeaveChallengeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LeaveChallengeViewCell.m; path = Views/LeaveChallengeViewCell.m; sourceTree = "<group>"; };
+		95F669A71C92C39100B4F7AE /* CapFitClubModel v3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CapFitClubModel v3.xcdatamodel"; sourceTree = "<group>"; };
+		95F669AB1C92C6DF00B4F7AE /* MainChallenge+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MainChallenge+CoreDataProperties.h"; path = "Entities/MainChallenge+CoreDataProperties.h"; sourceTree = "<group>"; };
+		95F669AC1C92C6DF00B4F7AE /* MainChallenge+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MainChallenge+CoreDataProperties.m"; path = "Entities/MainChallenge+CoreDataProperties.m"; sourceTree = "<group>"; };
+		95F669AD1C92C6DF00B4F7AE /* MainChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainChallenge.h; path = Entities/MainChallenge.h; sourceTree = "<group>"; };
+		95F669AE1C92C6DF00B4F7AE /* MainChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainChallenge.m; path = Entities/MainChallenge.m; sourceTree = "<group>"; };
+		95F669B41C92C86E00B4F7AE /* Challenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Challenge.h; path = Entities/Challenge.h; sourceTree = "<group>"; };
+		95F669B51C92C86E00B4F7AE /* Challenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Challenge.m; path = Entities/Challenge.m; sourceTree = "<group>"; };
+		95F669B61C92C86E00B4F7AE /* LocalChallenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalChallenge.h; path = Entities/LocalChallenge.h; sourceTree = "<group>"; };
+		95F669B71C92C86E00B4F7AE /* LocalChallenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalChallenge.m; path = Entities/LocalChallenge.m; sourceTree = "<group>"; };
+		95F75FB31C9186120073705A /* NSFileManager+FileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+FileHelper.h"; path = "Categories/NSFileManager+FileHelper.h"; sourceTree = "<group>"; };
+		95F75FB41C9186120073705A /* NSFileManager+FileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+FileHelper.m"; path = "Categories/NSFileManager+FileHelper.m"; sourceTree = "<group>"; };
+		95F75FB61C91A3E70073705A /* ChallengeForJoiningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChallengeForJoiningViewController.h; path = Controllers/ChallengeForJoiningViewController.h; sourceTree = "<group>"; };
+		95F75FB71C91A3E70073705A /* ChallengeForJoiningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChallengeForJoiningViewController.m; path = Controllers/ChallengeForJoiningViewController.m; sourceTree = "<group>"; };
+		95F75FB91C91B2C70073705A /* LocalChallenge+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "LocalChallenge+CoreDataProperties.h"; path = "Entities/LocalChallenge+CoreDataProperties.h"; sourceTree = "<group>"; };
+		95F75FBA1C91B2C70073705A /* LocalChallenge+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "LocalChallenge+CoreDataProperties.m"; path = "Entities/LocalChallenge+CoreDataProperties.m"; sourceTree = "<group>"; };
+		95F75FBC1C91B8000073705A /* SearchChallengeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchChallengeService.h; path = Services/SearchChallengeService.h; sourceTree = "<group>"; };
+		95F75FBD1C91B8000073705A /* SearchChallengeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchChallengeService.m; path = Services/SearchChallengeService.m; sourceTree = "<group>"; };
+		95F75FBF1C91B9BA0073705A /* joinchallenges.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = joinchallenges.json; path = Jsons/joinchallenges.json; sourceTree = "<group>"; };
+		95F7C0B71C9AD64100740012 /* CapFitClubModel v5.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CapFitClubModel v5.xcdatamodel"; sourceTree = "<group>"; };
+		95F7E5FE1CE46F76007405FB /* CapFitClubModel v11.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CapFitClubModel v11.xcdatamodel"; sourceTree = "<group>"; };
+		95F81A9C1CE1B1230068BDA6 /* CapFitClubModel v10.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CapFitClubModel v10.xcdatamodel"; sourceTree = "<group>"; };
+		95F81A9D1CE1B88C0068BDA6 /* WonBadgeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WonBadgeViewCell.h; path = Views/WonBadgeViewCell.h; sourceTree = "<group>"; };
+		95F81A9E1CE1B88C0068BDA6 /* WonBadgeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WonBadgeViewCell.m; path = Views/WonBadgeViewCell.m; sourceTree = "<group>"; };
+		95F81AA01CE1EB1B0068BDA6 /* BadgeBaseBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BadgeBaseBackgroundView.h; path = Views/BadgeBaseBackgroundView.h; sourceTree = "<group>"; };
+		95F81AA11CE1EB1B0068BDA6 /* BadgeBaseBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BadgeBaseBackgroundView.m; path = Views/BadgeBaseBackgroundView.m; sourceTree = "<group>"; };
+		95F8EA421CA93A1700DC4332 /* CompletedChallengesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompletedChallengesViewController.h; path = Controllers/CompletedChallengesViewController.h; sourceTree = "<group>"; };
+		95F8EA431CA93A1700DC4332 /* CompletedChallengesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompletedChallengesViewController.m; path = Controllers/CompletedChallengesViewController.m; sourceTree = "<group>"; };
+		95F8EA451CA941CF00DC4332 /* AddActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddActivityViewController.h; path = Controllers/AddActivityViewController.h; sourceTree = "<group>"; };
+		95F8EA461CA941CF00DC4332 /* AddActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddActivityViewController.m; path = Controllers/AddActivityViewController.m; sourceTree = "<group>"; };
+		95F8EA481CA962A900DC4332 /* LogActivityViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogActivityViewCell.h; path = Views/LogActivityViewCell.h; sourceTree = "<group>"; };
+		95F8EA491CA962A900DC4332 /* LogActivityViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogActivityViewCell.m; path = Views/LogActivityViewCell.m; sourceTree = "<group>"; };
+		95F8EA4B1CA962BB00DC4332 /* LogActivityUpdateCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogActivityUpdateCell.h; path = Views/LogActivityUpdateCell.h; sourceTree = "<group>"; };
+		95F8EA4C1CA962BB00DC4332 /* LogActivityUpdateCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogActivityUpdateCell.m; path = Views/LogActivityUpdateCell.m; sourceTree = "<group>"; };
+		95FD00181C884BC300FFDB9A /* ChallengeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChallengeDetailViewController.h; path = Controllers/ChallengeDetailViewController.h; sourceTree = "<group>"; };
+		95FD00191C884BC300FFDB9A /* ChallengeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChallengeDetailViewController.m; path = Controllers/ChallengeDetailViewController.m; sourceTree = "<group>"; };
+		95FD001C1C885F4400FFDB9A /* Challenge+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Challenge+CoreDataProperties.h"; path = "Entities/Challenge+CoreDataProperties.h"; sourceTree = "<group>"; };
+		95FD001D1C885F4400FFDB9A /* Challenge+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Challenge+CoreDataProperties.m"; path = "Entities/Challenge+CoreDataProperties.m"; sourceTree = "<group>"; };
+		95FD001F1C886C8B00FFDB9A /* CircularProgressViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CircularProgressViewCell.h; path = Views/CircularProgressViewCell.h; sourceTree = "<group>"; };
+		95FD00201C886C8B00FFDB9A /* CircularProgressViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CircularProgressViewCell.m; path = Views/CircularProgressViewCell.m; sourceTree = "<group>"; };
+		95FF5D6A1C63860300B64F80 /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "User+CoreDataProperties.h"; path = "Entities/User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		95FF5D6B1C63860300B64F80 /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "User+CoreDataProperties.m"; path = "Entities/User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		95FF5D6C1C63860300B64F80 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Entities/User.h; sourceTree = "<group>"; };
+		95FF5D6D1C63860300B64F80 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Entities/User.m; sourceTree = "<group>"; };
+		95FF5D6E1C63860300B64F80 /* Badge+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Badge+CoreDataProperties.h"; path = "Entities/Badge+CoreDataProperties.h"; sourceTree = "<group>"; };
+		95FF5D6F1C63860300B64F80 /* Badge+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Badge+CoreDataProperties.m"; path = "Entities/Badge+CoreDataProperties.m"; sourceTree = "<group>"; };
+		95FF5D701C63860300B64F80 /* Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Badge.h; path = Entities/Badge.h; sourceTree = "<group>"; };
+		95FF5D711C63860300B64F80 /* Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Badge.m; path = Entities/Badge.m; sourceTree = "<group>"; };
+		95FF5D721C63860300B64F80 /* Activity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Activity+CoreDataProperties.h"; path = "Entities/Activity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		95FF5D731C63860300B64F80 /* Activity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Activity+CoreDataProperties.m"; path = "Entities/Activity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		95FF5D741C63860300B64F80 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Activity.h; path = Entities/Activity.h; sourceTree = "<group>"; };
+		95FF5D751C63860300B64F80 /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Activity.m; path = Entities/Activity.m; sourceTree = "<group>"; };
+		9C8BD53EC40CE5D75A1FA6E3 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95063C1B1C6087C4001F6262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B76D4806570D7F6ED88FBC22 /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95063C371C6087C4001F6262 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4B4BC494557DC8C18ABA90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C8BD53EC40CE5D75A1FA6E3 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A303017DBAB2F917C4579A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				369D2FE03CCFAB9BBCEEFAAE /* Pods.debug.xcconfig */,
+				16B2C29EAFF9D1B4829069F0 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		950421B61C7DBDBB00AE4408 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				95070B751C85B55A00B699EF /* ChallengesGoal.plist */,
+				950421B71C7DBDD300AE4408 /* PTSans.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		95063C151C6087C4001F6262 = {
+			isa = PBXGroup;
+			children = (
+				95063C201C6087C4001F6262 /* CapFitClub */,
+				95063C3D1C6087C4001F6262 /* CapFitClubTests */,
+				95063C1F1C6087C4001F6262 /* Products */,
+				8A303017DBAB2F917C4579A5 /* Pods */,
+				2B4B4BC494557DC8C18ABA90 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		95063C1F1C6087C4001F6262 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95063C1E1C6087C4001F6262 /* BeHealthy.app */,
+				95063C3A1C6087C4001F6262 /* CapFitClubTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95063C201C6087C4001F6262 /* CapFitClub */ = {
+			isa = PBXGroup;
+			children = (
+				95B7A86B1C68C7300043B32F /* Jsons */,
+				95B4D4C01C6E1FB100347430 /* Fetchers */,
+				95063C4E1C60B4FA001F6262 /* Categories */,
+				95063C4D1C60B4CD001F6262 /* Views */,
+				95063C4C1C60B4C5001F6262 /* Entities */,
+				95063C4B1C60B4BE001F6262 /* Libraries */,
+				95063C4A1C60B4B7001F6262 /* Services */,
+				95063C491C60B4AA001F6262 /* Controllers */,
+				950421B61C7DBDBB00AE4408 /* Resources */,
+				95063C241C6087C4001F6262 /* AppDelegate.h */,
+				95063C251C6087C4001F6262 /* AppDelegate.m */,
+				95063C2D1C6087C4001F6262 /* Main.storyboard */,
+				95063C301C6087C4001F6262 /* Assets.xcassets */,
+				9509D4AC1C92BCE800950767 /* CapFitClubModel.xcdatamodeld */,
+				95063C351C6087C4001F6262 /* Info.plist */,
+				95063C211C6087C4001F6262 /* Supporting Files */,
+				95B7A8561C687A3D0043B32F /* CommonFunctions.h */,
+				95B7A8571C687A3D0043B32F /* CommonFunctions.m */,
+				95ADB2EC1C69E5380091B819 /* AppConstants.h */,
+				95ADB2ED1C69E5380091B819 /* AppConstants.m */,
+			);
+			path = CapFitClub;
+			sourceTree = "<group>";
+		};
+		95063C211C6087C4001F6262 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95063C221C6087C4001F6262 /* main.m */,
+				95B7A8671C68AB980043B32F /* Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95063C3D1C6087C4001F6262 /* CapFitClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				95063C3E1C6087C4001F6262 /* CapFitClubTests.m */,
+				95063C401C6087C4001F6262 /* Info.plist */,
+			);
+			path = CapFitClubTests;
+			sourceTree = "<group>";
+		};
+		95063C491C60B4AA001F6262 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				95086FD31C6CD0E000760CF1 /* BaseController */,
+				95B7A8641C68A78B0043B32F /* LoginViewController.h */,
+				95B7A8651C68A78B0043B32F /* LoginViewController.m */,
+				95063C4F1C60B512001F6262 /* ProfileViewController.h */,
+				95063C501C60B512001F6262 /* ProfileViewController.m */,
+				957A4DDC1C6B4E9D00529B61 /* DashboardViewController.h */,
+				957A4DDD1C6B4E9D00529B61 /* DashboardViewController.m */,
+				95FD00181C884BC300FFDB9A /* ChallengeDetailViewController.h */,
+				95FD00191C884BC300FFDB9A /* ChallengeDetailViewController.m */,
+				95269DC31C61FDAB00756407 /* LogActivityViewController.h */,
+				95269DC41C61FDAB00756407 /* LogActivityViewController.m */,
+				95F8EA451CA941CF00DC4332 /* AddActivityViewController.h */,
+				95F8EA461CA941CF00DC4332 /* AddActivityViewController.m */,
+				95F8EA421CA93A1700DC4332 /* CompletedChallengesViewController.h */,
+				95F8EA431CA93A1700DC4332 /* CompletedChallengesViewController.m */,
+				95082A391C842AA700292B58 /* SelectChallengeViewController.h */,
+				95082A3A1C842AA700292B58 /* SelectChallengeViewController.m */,
+				95063C511C60B512001F6262 /* SetChallengeViewController.h */,
+				95063C521C60B512001F6262 /* SetChallengeViewController.m */,
+				950840F11C870FBB00CCFEAE /* SetChallengeConfirmationViewController.h */,
+				950840F21C870FBB00CCFEAE /* SetChallengeConfirmationViewController.m */,
+				955ADA911C905E5E003340B1 /* MailComposerController.h */,
+				955ADA921C905E5E003340B1 /* MailComposerController.m */,
+				957A4DDF1C6B7A6B00529B61 /* BadgesViewController.h */,
+				957A4DE01C6B7A6B00529B61 /* BadgesViewController.m */,
+				95269DC61C61FDE200756407 /* JoinChallengeViewController.h */,
+				95269DC71C61FDE200756407 /* JoinChallengeViewController.m */,
+				95F75FB61C91A3E70073705A /* ChallengeForJoiningViewController.h */,
+				95F75FB71C91A3E70073705A /* ChallengeForJoiningViewController.m */,
+				95C7E00E1C96BBCC00BC1AA6 /* ConfirmationViewController.h */,
+				95C7E00F1C96BBCC00BC1AA6 /* ConfirmationViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		95063C4A1C60B4B7001F6262 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				95086FC51C6C5E7300760CF1 /* SharedSessionManager.h */,
+				95086FC61C6C5E7300760CF1 /* SharedSessionManager.m */,
+				95086FC81C6C601500760CF1 /* LoginService.h */,
+				95086FC91C6C601500760CF1 /* LoginService.m */,
+				95B4D4BD1C6E1C1700347430 /* UserProfileService.h */,
+				95B4D4BE1C6E1C1700347430 /* UserProfileService.m */,
+				9509C00A1C9961690054EB48 /* ChallengeTypeService.h */,
+				9509C00B1C9961690054EB48 /* ChallengeTypeService.m */,
+				95131F2D1C7F26E90068247C /* GetChallengesService.h */,
+				95131F2E1C7F26E90068247C /* GetChallengesService.m */,
+				9502D51A1C9FF41000F2421D /* CreateUpdateChallengeService.h */,
+				9502D51B1C9FF41000F2421D /* CreateUpdateChallengeService.m */,
+				95066DC31CAD42B200FCA952 /* JoinChallengeService.h */,
+				95066DC41CAD42B200FCA952 /* JoinChallengeService.m */,
+				958820BF1CAE579B00231D01 /* LeaveDeleteChallengeService.h */,
+				958820C01CAE579B00231D01 /* LeaveDeleteChallengeService.m */,
+				95F75FBC1C91B8000073705A /* SearchChallengeService.h */,
+				95F75FBD1C91B8000073705A /* SearchChallengeService.m */,
+				9510C99D1CAA5143005A2CFF /* UpdateLogActivityService.h */,
+				9510C99E1CAA5143005A2CFF /* UpdateLogActivityService.m */,
+				9509BBF01CB53FD8006B5988 /* LogoutService.h */,
+				9509BBF11CB53FD8006B5988 /* LogoutService.m */,
+				951E50EF1CBD18B50070FB00 /* GetBadgesService.h */,
+				951E50F01CBD18B50070FB00 /* GetBadgesService.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		95063C4B1C60B4BE001F6262 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				95B7A8591C689A6F0043B32F /* SGTEntityKit */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		95063C4C1C60B4C5001F6262 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				95F669AB1C92C6DF00B4F7AE /* MainChallenge+CoreDataProperties.h */,
+				95F669AC1C92C6DF00B4F7AE /* MainChallenge+CoreDataProperties.m */,
+				95F669AD1C92C6DF00B4F7AE /* MainChallenge.h */,
+				95F669AE1C92C6DF00B4F7AE /* MainChallenge.m */,
+				95FD001C1C885F4400FFDB9A /* Challenge+CoreDataProperties.h */,
+				95FD001D1C885F4400FFDB9A /* Challenge+CoreDataProperties.m */,
+				95F669B41C92C86E00B4F7AE /* Challenge.h */,
+				95F669B51C92C86E00B4F7AE /* Challenge.m */,
+				95F75FB91C91B2C70073705A /* LocalChallenge+CoreDataProperties.h */,
+				95F75FBA1C91B2C70073705A /* LocalChallenge+CoreDataProperties.m */,
+				95F669B61C92C86E00B4F7AE /* LocalChallenge.h */,
+				95F669B71C92C86E00B4F7AE /* LocalChallenge.m */,
+				954373C41C92E0FD00B12E15 /* ProfileUser+CoreDataProperties.h */,
+				954373C51C92E0FD00B12E15 /* ProfileUser+CoreDataProperties.m */,
+				954373C61C92E0FD00B12E15 /* ProfileUser.h */,
+				954373C71C92E0FD00B12E15 /* ProfileUser.m */,
+				95FF5D6A1C63860300B64F80 /* User+CoreDataProperties.h */,
+				95FF5D6B1C63860300B64F80 /* User+CoreDataProperties.m */,
+				95FF5D6C1C63860300B64F80 /* User.h */,
+				95FF5D6D1C63860300B64F80 /* User.m */,
+				95FF5D6E1C63860300B64F80 /* Badge+CoreDataProperties.h */,
+				95FF5D6F1C63860300B64F80 /* Badge+CoreDataProperties.m */,
+				95FF5D701C63860300B64F80 /* Badge.h */,
+				95FF5D711C63860300B64F80 /* Badge.m */,
+				95FF5D721C63860300B64F80 /* Activity+CoreDataProperties.h */,
+				95FF5D731C63860300B64F80 /* Activity+CoreDataProperties.m */,
+				95FF5D741C63860300B64F80 /* Activity.h */,
+				95FF5D751C63860300B64F80 /* Activity.m */,
+				9509C00D1C99625D0054EB48 /* ChallengeType+CoreDataProperties.h */,
+				9509C00E1C99625D0054EB48 /* ChallengeType+CoreDataProperties.m */,
+				9509C00F1C99625D0054EB48 /* ChallengeType.h */,
+				9509C0101C99625D0054EB48 /* ChallengeType.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		95063C4D1C60B4CD001F6262 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				957A4DE51C6B838000529B61 /* ProfileImageViewCell.h */,
+				957A4DE61C6B838000529B61 /* ProfileImageViewCell.m */,
+				957A4DE21C6B835600529B61 /* ProfileViewCell.h */,
+				957A4DE31C6B835600529B61 /* ProfileViewCell.m */,
+				95086FCF1C6CD05500760CF1 /* CustomTabBar.h */,
+				95086FD01C6CD05500760CF1 /* CustomTabBar.m */,
+				950A5B7E1C71ADF800FE0E77 /* CustomPickerView.h */,
+				950A5B7F1C71ADF800FE0E77 /* CustomPickerView.m */,
+				95667C171C7C9AE500DEA945 /* CountsViewCell.h */,
+				95667C181C7C9AE500DEA945 /* CountsViewCell.m */,
+				95667C1A1C7C9BF900DEA945 /* CustomTextField.h */,
+				95667C1B1C7C9BF900DEA945 /* CustomTextField.m */,
+				95667C1D1C7CA58300DEA945 /* ChallengesViewCell.h */,
+				95667C1E1C7CA58300DEA945 /* ChallengesViewCell.m */,
+				950421B91C7DC84600AE4408 /* FilledChallengesView.h */,
+				950421BA1C7DC84600AE4408 /* FilledChallengesView.m */,
+				95082A3F1C8442D500292B58 /* SelectChallengeCell.h */,
+				95082A401C8442D500292B58 /* SelectChallengeCell.m */,
+				95082A451C845D1E00292B58 /* SetActivityAndImageCell.h */,
+				95082A461C845D1E00292B58 /* SetActivityAndImageCell.m */,
+				95082A481C84710800292B58 /* DescriptionViewCell.h */,
+				95082A491C84710800292B58 /* DescriptionViewCell.m */,
+				95070B721C85ABB100B699EF /* SetChallengeGoalViewCell.h */,
+				95070B731C85ABB100B699EF /* SetChallengeGoalViewCell.m */,
+				950840EE1C86EBCD00CCFEAE /* SearchableViewCell.h */,
+				950840EF1C86EBCD00CCFEAE /* SearchableViewCell.m */,
+				95FD001F1C886C8B00FFDB9A /* CircularProgressViewCell.h */,
+				95FD00201C886C8B00FFDB9A /* CircularProgressViewCell.m */,
+				95EF530B1C8ED7BF008A25E7 /* LeaveChallengeViewCell.h */,
+				95EF530C1C8ED7BF008A25E7 /* LeaveChallengeViewCell.m */,
+				95F8EA481CA962A900DC4332 /* LogActivityViewCell.h */,
+				95F8EA491CA962A900DC4332 /* LogActivityViewCell.m */,
+				95F8EA4B1CA962BB00DC4332 /* LogActivityUpdateCell.h */,
+				95F8EA4C1CA962BB00DC4332 /* LogActivityUpdateCell.m */,
+				957E51B51CBBDD5600441533 /* BadgesViewCell.h */,
+				957E51B61CBBDD5600441533 /* BadgesViewCell.m */,
+				95F81A9D1CE1B88C0068BDA6 /* WonBadgeViewCell.h */,
+				95F81A9E1CE1B88C0068BDA6 /* WonBadgeViewCell.m */,
+				95F81AA01CE1EB1B0068BDA6 /* BadgeBaseBackgroundView.h */,
+				95F81AA11CE1EB1B0068BDA6 /* BadgeBaseBackgroundView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		95063C4E1C60B4FA001F6262 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				95F75FB31C9186120073705A /* NSFileManager+FileHelper.h */,
+				95F75FB41C9186120073705A /* NSFileManager+FileHelper.m */,
+				95667C141C7C83EC00DEA945 /* UIDevice+Size.h */,
+				95667C151C7C83EC00DEA945 /* UIDevice+Size.m */,
+				95B7A8521C6870C90043B32F /* UINavigationController+TransparentNavigationBar.h */,
+				95B7A8531C6870C90043B32F /* UINavigationController+TransparentNavigationBar.m */,
+				95082A3C1C84413F00292B58 /* UITableViewCell+DisclosureIndicatorColor.h */,
+				95082A3D1C84413F00292B58 /* UITableViewCell+DisclosureIndicatorColor.m */,
+				950427201C8993D500A5DD9E /* UIImage+Resize.h */,
+				950427211C8993D500A5DD9E /* UIImage+Resize.m */,
+				95CD8AEB1CB28E440086539F /* AFHTTPRequestSerializer+Headers.h */,
+				95CD8AEC1CB28E440086539F /* AFHTTPRequestSerializer+Headers.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		95086FD31C6CD0E000760CF1 /* BaseController */ = {
+			isa = PBXGroup;
+			children = (
+				95086FD41C6CD12600760CF1 /* CustomTabBarController.h */,
+				95086FD51C6CD12600760CF1 /* CustomTabBarController.m */,
+				9573AE771CC8B7C700C9A85B /* CustomAlertViewController.h */,
+				9573AE781CC8B7C700C9A85B /* CustomAlertViewController.m */,
+			);
+			name = BaseController;
+			sourceTree = "<group>";
+		};
+		95B4D4C01C6E1FB100347430 /* Fetchers */ = {
+			isa = PBXGroup;
+			children = (
+				95B4D4C11C6E1FEB00347430 /* EntitiesFetcher.h */,
+				95B4D4C21C6E1FEB00347430 /* EntitiesFetcher.m */,
+			);
+			name = Fetchers;
+			sourceTree = "<group>";
+		};
+		95B7A8591C689A6F0043B32F /* SGTEntityKit */ = {
+			isa = PBXGroup;
+			children = (
+				95B7A85A1C689A840043B32F /* NSFetchRequest+SGTEntityKit.h */,
+				95B7A85B1C689A840043B32F /* NSFetchRequest+SGTEntityKit.m */,
+				95B7A85C1C689A840043B32F /* SGTEntityFetcher.h */,
+				95B7A85D1C689A840043B32F /* SGTEntityFetcher.m */,
+				95B7A85E1C689A840043B32F /* SGTEntityKit.h */,
+				95B7A85F1C689A840043B32F /* SGTEntityManager.h */,
+				95B7A8601C689A840043B32F /* SGTEntityManager.m */,
+			);
+			name = SGTEntityKit;
+			sourceTree = "<group>";
+		};
+		95B7A86B1C68C7300043B32F /* Jsons */ = {
+			isa = PBXGroup;
+			children = (
+				955051C41CBE6E7F0064D6B8 /* badges.json */,
+				9509C0081C995C100054EB48 /* challengetypelist.json */,
+				95F75FBF1C91B9BA0073705A /* joinchallenges.json */,
+				95131F281C7F084D0068247C /* challenges.json */,
+				950421B21C7D89C600AE4408 /* saveuserprofile.json */,
+				950421B31C7D89C600AE4408 /* userprofile.json */,
+				95B7A86C1C68C75D0043B32F /* login.json */,
+			);
+			name = Jsons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95063C1D1C6087C4001F6262 /* CapFitClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95063C431C6087C4001F6262 /* Build configuration list for PBXNativeTarget "CapFitClub" */;
+			buildPhases = (
+				6BB363142A477A54BDCA78DB /* Check Pods Manifest.lock */,
+				95063C1A1C6087C4001F6262 /* Sources */,
+				95063C1B1C6087C4001F6262 /* Frameworks */,
+				95063C1C1C6087C4001F6262 /* Resources */,
+				F25C9E5D9D90BCDF3DF6EB13 /* Embed Pods Frameworks */,
+				A9E38D7179B4064FFE822881 /* Copy Pods Resources */,
+				95085E3B1C807EF3007D6330 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapFitClub;
+			productName = CapFitClub;
+			productReference = 95063C1E1C6087C4001F6262 /* BeHealthy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95063C391C6087C4001F6262 /* CapFitClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95063C461C6087C4001F6262 /* Build configuration list for PBXNativeTarget "CapFitClubTests" */;
+			buildPhases = (
+				95063C361C6087C4001F6262 /* Sources */,
+				95063C371C6087C4001F6262 /* Frameworks */,
+				95063C381C6087C4001F6262 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95063C3C1C6087C4001F6262 /* PBXTargetDependency */,
+			);
+			name = CapFitClubTests;
+			productName = CapFitClubTests;
+			productReference = 95063C3A1C6087C4001F6262 /* CapFitClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95063C161C6087C4001F6262 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Capgemini;
+				TargetAttributes = {
+					95063C1D1C6087C4001F6262 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KEZ4S8YAEA;
+					};
+					95063C391C6087C4001F6262 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 95063C1D1C6087C4001F6262;
+					};
+				};
+			};
+			buildConfigurationList = 95063C191C6087C4001F6262 /* Build configuration list for PBXProject "CapFitClub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95063C151C6087C4001F6262;
+			productRefGroup = 95063C1F1C6087C4001F6262 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95063C1D1C6087C4001F6262 /* CapFitClub */,
+				95063C391C6087C4001F6262 /* CapFitClubTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95063C1C1C6087C4001F6262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95063C311C6087C4001F6262 /* Assets.xcassets in Resources */,
+				95F75FC01C91B9BA0073705A /* joinchallenges.json in Resources */,
+				950421B51C7D89C600AE4408 /* userprofile.json in Resources */,
+				9509C0091C995C100054EB48 /* challengetypelist.json in Resources */,
+				95063C2F1C6087C4001F6262 /* Main.storyboard in Resources */,
+				95B7A86D1C68C75D0043B32F /* login.json in Resources */,
+				950421B41C7D89C600AE4408 /* saveuserprofile.json in Resources */,
+				95131F291C7F084D0068247C /* challenges.json in Resources */,
+				950421B81C7DBDD300AE4408 /* PTSans.ttf in Resources */,
+				95070B761C85B55A00B699EF /* ChallengesGoal.plist in Resources */,
+				955051C51CBE6E7F0064D6B8 /* badges.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95063C381C6087C4001F6262 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BB363142A477A54BDCA78DB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		95085E3B1C807EF3007D6330 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$\"/Users/Sumit/Desktop/Projects/Health App/FitClubiOS/build_number.sh\" \"/Users/Sumit/Desktop/Projects/Health App/FitClubiOS/CapFitClub/Info.plist\"";
+			showEnvVarsInLog = 0;
+		};
+		A9E38D7179B4064FFE822881 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F25C9E5D9D90BCDF3DF6EB13 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95063C1A1C6087C4001F6262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9510C99F1CAA5143005A2CFF /* UpdateLogActivityService.m in Sources */,
+				95131F2F1C7F26E90068247C /* GetChallengesService.m in Sources */,
+				95F75FBE1C91B8000073705A /* SearchChallengeService.m in Sources */,
+				95F8EA4D1CA962BB00DC4332 /* LogActivityUpdateCell.m in Sources */,
+				95B7A8541C6870C90043B32F /* UINavigationController+TransparentNavigationBar.m in Sources */,
+				95FF5D7B1C63860300B64F80 /* Badge.m in Sources */,
+				957A4DE41C6B835600529B61 /* ProfileViewCell.m in Sources */,
+				951E50F11CBD18B50070FB00 /* GetBadgesService.m in Sources */,
+				95F669B81C92C86E00B4F7AE /* Challenge.m in Sources */,
+				954373C91C92E0FD00B12E15 /* ProfileUser.m in Sources */,
+				95ADB2EE1C69E5380091B819 /* AppConstants.m in Sources */,
+				95FF5D781C63860300B64F80 /* User+CoreDataProperties.m in Sources */,
+				954373C81C92E0FD00B12E15 /* ProfileUser+CoreDataProperties.m in Sources */,
+				95F8EA441CA93A1700DC4332 /* CompletedChallengesViewController.m in Sources */,
+				95F8EA471CA941CF00DC4332 /* AddActivityViewController.m in Sources */,
+				95FF5D7C1C63860300B64F80 /* Activity+CoreDataProperties.m in Sources */,
+				95063C541C60B512001F6262 /* SetChallengeViewController.m in Sources */,
+				95086FD11C6CD05500760CF1 /* CustomTabBar.m in Sources */,
+				95F669B01C92C6DF00B4F7AE /* MainChallenge.m in Sources */,
+				95086FD61C6CD12600760CF1 /* CustomTabBarController.m in Sources */,
+				95086FC71C6C5E7300760CF1 /* SharedSessionManager.m in Sources */,
+				9509BBF21CB53FD8006B5988 /* LogoutService.m in Sources */,
+				950A5B801C71ADF800FE0E77 /* CustomPickerView.m in Sources */,
+				95082A3B1C842AA700292B58 /* SelectChallengeViewController.m in Sources */,
+				95FF5D7D1C63860300B64F80 /* Activity.m in Sources */,
+				95FD001A1C884BC300FFDB9A /* ChallengeDetailViewController.m in Sources */,
+				95082A4A1C84710800292B58 /* DescriptionViewCell.m in Sources */,
+				950840F01C86EBCD00CCFEAE /* SearchableViewCell.m in Sources */,
+				95B7A8581C687A3D0043B32F /* CommonFunctions.m in Sources */,
+				95082A3E1C84413F00292B58 /* UITableViewCell+DisclosureIndicatorColor.m in Sources */,
+				95667C191C7C9AE500DEA945 /* CountsViewCell.m in Sources */,
+				9509C00C1C9961690054EB48 /* ChallengeTypeService.m in Sources */,
+				95EF530D1C8ED7BF008A25E7 /* LeaveChallengeViewCell.m in Sources */,
+				9509D4AF1C92BCE800950767 /* CapFitClubModel.xcdatamodeld in Sources */,
+				9509C0121C99625D0054EB48 /* ChallengeType.m in Sources */,
+				95667C161C7C83EC00DEA945 /* UIDevice+Size.m in Sources */,
+				95667C1C1C7C9BF900DEA945 /* CustomTextField.m in Sources */,
+				9502D51C1C9FF41000F2421D /* CreateUpdateChallengeService.m in Sources */,
+				95FD001E1C885F4400FFDB9A /* Challenge+CoreDataProperties.m in Sources */,
+				957A4DE11C6B7A6B00529B61 /* BadgesViewController.m in Sources */,
+				955ADA931C905E5E003340B1 /* MailComposerController.m in Sources */,
+				95082A411C8442D500292B58 /* SelectChallengeCell.m in Sources */,
+				9573AE791CC8B7C700C9A85B /* CustomAlertViewController.m in Sources */,
+				95C7E0101C96BBCC00BC1AA6 /* ConfirmationViewController.m in Sources */,
+				95269DC51C61FDAB00756407 /* LogActivityViewController.m in Sources */,
+				95269DC81C61FDE200756407 /* JoinChallengeViewController.m in Sources */,
+				95063C261C6087C4001F6262 /* AppDelegate.m in Sources */,
+				95F669B91C92C86E00B4F7AE /* LocalChallenge.m in Sources */,
+				95CD8AED1CB28E440086539F /* AFHTTPRequestSerializer+Headers.m in Sources */,
+				95F81A9F1CE1B88C0068BDA6 /* WonBadgeViewCell.m in Sources */,
+				95B7A8661C68A78B0043B32F /* LoginViewController.m in Sources */,
+				95070B741C85ABB100B699EF /* SetChallengeGoalViewCell.m in Sources */,
+				95F8EA4A1CA962A900DC4332 /* LogActivityViewCell.m in Sources */,
+				95B4D4C31C6E1FEB00347430 /* EntitiesFetcher.m in Sources */,
+				95FF5D791C63860300B64F80 /* User.m in Sources */,
+				95B7A8621C689A840043B32F /* SGTEntityFetcher.m in Sources */,
+				95FF5D7A1C63860300B64F80 /* Badge+CoreDataProperties.m in Sources */,
+				950421BB1C7DC84600AE4408 /* FilledChallengesView.m in Sources */,
+				95082A471C845D1E00292B58 /* SetActivityAndImageCell.m in Sources */,
+				95FD00211C886C8B00FFDB9A /* CircularProgressViewCell.m in Sources */,
+				95B4D4BF1C6E1C1700347430 /* UserProfileService.m in Sources */,
+				9509C0111C99625D0054EB48 /* ChallengeType+CoreDataProperties.m in Sources */,
+				95F75FB81C91A3E70073705A /* ChallengeForJoiningViewController.m in Sources */,
+				950840F31C870FBB00CCFEAE /* SetChallengeConfirmationViewController.m in Sources */,
+				95063C531C60B512001F6262 /* ProfileViewController.m in Sources */,
+				95667C1F1C7CA58300DEA945 /* ChallengesViewCell.m in Sources */,
+				95066DC51CAD42B200FCA952 /* JoinChallengeService.m in Sources */,
+				957E51B71CBBDD5600441533 /* BadgesViewCell.m in Sources */,
+				95B7A8631C689A840043B32F /* SGTEntityManager.m in Sources */,
+				958820C11CAE579B00231D01 /* LeaveDeleteChallengeService.m in Sources */,
+				95F75FBB1C91B2C70073705A /* LocalChallenge+CoreDataProperties.m in Sources */,
+				957A4DDE1C6B4E9D00529B61 /* DashboardViewController.m in Sources */,
+				95F75FB51C9186120073705A /* NSFileManager+FileHelper.m in Sources */,
+				95063C231C6087C4001F6262 /* main.m in Sources */,
+				95086FCA1C6C601500760CF1 /* LoginService.m in Sources */,
+				95B7A8611C689A840043B32F /* NSFetchRequest+SGTEntityKit.m in Sources */,
+				957A4DE71C6B838000529B61 /* ProfileImageViewCell.m in Sources */,
+				95F81AA21CE1EB1B0068BDA6 /* BadgeBaseBackgroundView.m in Sources */,
+				95F669AF1C92C6DF00B4F7AE /* MainChallenge+CoreDataProperties.m in Sources */,
+				950427221C8993D500A5DD9E /* UIImage+Resize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95063C361C6087C4001F6262 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95063C3F1C6087C4001F6262 /* CapFitClubTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95063C3C1C6087C4001F6262 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95063C1D1C6087C4001F6262 /* CapFitClub */;
+			targetProxy = 95063C3B1C6087C4001F6262 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95063C2D1C6087C4001F6262 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95063C2E1C6087C4001F6262 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95063C411C6087C4001F6262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Capgemini UK PLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Capgemini UK PLC";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "6e6f40da-e4d7-4603-b1a7-8c8226d42d06";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95063C421C6087C4001F6262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Capgemini UK PLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Capgemini UK PLC";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "6e6f40da-e4d7-4603-b1a7-8c8226d42d06";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95063C441C6087C4001F6262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 369D2FE03CCFAB9BBCEEFAAE /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Capgemini UK PLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Capgemini UK PLC";
+				GCC_PREFIX_HEADER = "/Users/Sumit/Desktop/Projects/Health App/FitClubiOS/CapFitClub/Prefix.pch";
+				INFOPLIST_FILE = CapFitClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Capgemini.CapFitClub;
+				PRODUCT_NAME = BeHealthy;
+				PROVISIONING_PROFILE = "6e6f40da-e4d7-4603-b1a7-8c8226d42d06";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95063C451C6087C4001F6262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16B2C29EAFF9D1B4829069F0 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Capgemini UK PLC";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Capgemini UK PLC";
+				GCC_PREFIX_HEADER = "/Users/Sumit/Desktop/Projects/Health App/FitClubiOS/CapFitClub/Prefix.pch";
+				INFOPLIST_FILE = CapFitClub/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Capgemini.CapFitClub;
+				PRODUCT_NAME = BeHealthy;
+				PROVISIONING_PROFILE = "6e6f40da-e4d7-4603-b1a7-8c8226d42d06";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95063C471C6087C4001F6262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Capgemini UK PLC";
+				INFOPLIST_FILE = CapFitClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Capgemini.CapFitClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e6f40da-e4d7-4603-b1a7-8c8226d42d06";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapFitClub.app/CapFitClub";
+			};
+			name = Debug;
+		};
+		95063C481C6087C4001F6262 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Capgemini UK PLC";
+				INFOPLIST_FILE = CapFitClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Capgemini.CapFitClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "6e6f40da-e4d7-4603-b1a7-8c8226d42d06";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapFitClub.app/CapFitClub";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95063C191C6087C4001F6262 /* Build configuration list for PBXProject "CapFitClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95063C411C6087C4001F6262 /* Debug */,
+				95063C421C6087C4001F6262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95063C431C6087C4001F6262 /* Build configuration list for PBXNativeTarget "CapFitClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95063C441C6087C4001F6262 /* Debug */,
+				95063C451C6087C4001F6262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95063C461C6087C4001F6262 /* Build configuration list for PBXNativeTarget "CapFitClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95063C471C6087C4001F6262 /* Debug */,
+				95063C481C6087C4001F6262 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9509D4AC1C92BCE800950767 /* CapFitClubModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				95F7E5FE1CE46F76007405FB /* CapFitClubModel v11.xcdatamodel */,
+				95F81A9C1CE1B1230068BDA6 /* CapFitClubModel v10.xcdatamodel */,
+				95066DC21CACF48E00FCA952 /* CapFitClubModel v9.xcdatamodel */,
+				9554477E1CA17CBF0080F46D /* CapFitClubModel v8.xcdatamodel */,
+				9502D51E1CA00DCB00F2421D /* CapFitClubModel v7.xcdatamodel */,
+				9502D51D1C9FFFF400F2421D /* CapFitClubModel v6.xcdatamodel */,
+				95F7C0B71C9AD64100740012 /* CapFitClubModel v5.xcdatamodel */,
+				9509C0071C99323F0054EB48 /* CapFitClubModel v4.xcdatamodel */,
+				95F669A71C92C39100B4F7AE /* CapFitClubModel v3.xcdatamodel */,
+				9509D4AD1C92BCE800950767 /* CapFitClubModel v2.xcdatamodel */,
+				9509D4AE1C92BCE800950767 /* CapFitClubModel.xcdatamodel */,
+			);
+			currentVersion = 95F7E5FE1CE46F76007405FB /* CapFitClubModel v11.xcdatamodel */;
+			path = CapFitClubModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 95063C161C6087C4001F6262 /* Project object */;
+}
