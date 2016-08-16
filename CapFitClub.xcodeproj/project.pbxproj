@@ -779,7 +779,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "$\"/Users/Sumit/Desktop/Projects/Health App/FitClubiOS/build_number.sh\" \"/Users/Sumit/Desktop/Projects/Health App/FitClubiOS/CapFitClub/Info.plist\"";
+			shellScript = "$\"./build_number.sh\" \"./CapFitClub/Info.plist\"";
 			showEnvVarsInLog = 0;
 		};
 		A9E38D7179B4064FFE822881 /* Copy Pods Resources */ = {
@@ -1024,15 +1024,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Capgemini UK PLC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Capgemini UK PLC";
-				GCC_PREFIX_HEADER = "/Users/Sumit/Desktop/Projects/Health App/FitClubiOS/CapFitClub/Prefix.pch";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = ./CapFitClub/Prefix.pch;
 				INFOPLIST_FILE = CapFitClub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Capgemini.CapFitClub;
 				PRODUCT_NAME = BeHealthy;
-				PROVISIONING_PROFILE = "6e6f40da-e4d7-4603-b1a7-8c8226d42d06";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1043,15 +1043,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Capgemini UK PLC";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Capgemini UK PLC";
-				GCC_PREFIX_HEADER = "/Users/Sumit/Desktop/Projects/Health App/FitClubiOS/CapFitClub/Prefix.pch";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = ./CapFitClub/Prefix.pch;
 				INFOPLIST_FILE = CapFitClub/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Capgemini.CapFitClub;
 				PRODUCT_NAME = BeHealthy;
-				PROVISIONING_PROFILE = "6e6f40da-e4d7-4603-b1a7-8c8226d42d06";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
