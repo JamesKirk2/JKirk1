@@ -31,8 +31,15 @@
 @property (nonatomic, strong) SGTEntityManager *entityManager;
 @property (nonatomic, assign) BOOL canEditChallenge;
 
+@property (nonatomic, strong) NSString *initialChallengeName;
+@property (nonatomic, strong) NSString *initialChallengeDescription;
+@property (nonatomic, strong) NSNumber *initialChallengeGoal;
+@property (nonatomic, strong) NSString *initialChallengeGoalUnit;
+@property (nonatomic, strong) NSDate *initialEndDate;
+
 - (IBAction)startChallenge:(id)sender;
 - (IBAction)saveChallenge:(id)sender;
+- (IBAction)cancelClicked:(id)sender;
 @end
 
 @implementation SetChallengeViewController
@@ -57,9 +64,18 @@
         [self.navigationItem setRightBarButtonItem:[CommonFunctions barButtonItemWithTitle:@"SAVE" target:self selector:@selector(saveChallenge:)]];
     }
     
+    [self.navigationItem setLeftBarButtonItem:[CommonFunctions barButtonItemWithTitle:@"CANCEL" target:self selector:@selector(cancelClicked:)]];
+    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(resetTableViewHeight:) name:UIKeyboardDidHideNotification object:nil];
     [self.customDatePickerView setCustomPickerDelegate:self];
     [self.setChallengeTableView reloadData];
+    
+    //Saves the existing challenge data to a temp storage field.
+    _initialChallengeName = [self.challenge challengeName];
+    _initialChallengeDescription = [self.challenge challengeDescription];
+    _initialChallengeGoal = [self.challenge challengeGoal];
+    _initialChallengeGoalUnit = [self.challenge challengeGoalUnit];
+    _initialEndDate = [self.challenge endDate];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -110,6 +126,18 @@
         return;
     }
     [self createChallengeWithServiceURL:UPDATE_CHALLENGE_URL];
+}
+
+- (IBAction)cancelClicked:(id)sender {
+    //on a cancel update request, reset the values back to the original values (saved from when the view loaded).
+    [self.challenge setChallengeName:_initialChallengeName];
+    [self.challenge setChallengeDescription:_initialChallengeDescription];
+    [self.challenge setChallengeGoal:_initialChallengeGoal];
+    [self.challenge setChallengeGoalUnit:_initialChallengeGoalUnit];
+    [self.challenge setEndDate:_initialEndDate];
+    
+    UINavigationController *navigationController = self.navigationController;
+    [navigationController popViewControllerAnimated:YES];
 }
 
 - (void)createChallengeWithServiceURL:(NSString *)url {
@@ -243,6 +271,8 @@
         [setChallengeGoalCell setSegmentWithItems:[challengeGoals objectForKey:[[CommonFunctions getNameForChallengeType:[self.challenge challengeType]] lowercaseString]]];
         [setChallengeGoalCell setGoal:[self.challenge challengeGoal] withGoalUnit:[self.challenge challengeGoalUnit]];
         [setChallengeGoalCell setUserInteractionEnabled:self.canEditChallenge];
+        [self.challenge setChallengeGoal:_initialChallengeGoal];
+        [self.challenge setChallengeGoalUnit:_initialChallengeGoalUnit];
         return setChallengeGoalCell;
     } else if (indexPath.row == 5) {
         ProfileViewCell *pickDateCell = (ProfileViewCell *)[tableView dequeueReusableCellWithIdentifier:@"PickDateCell" forIndexPath:indexPath];

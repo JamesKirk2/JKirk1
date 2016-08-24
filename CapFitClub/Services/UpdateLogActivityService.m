@@ -89,7 +89,8 @@
     if (([challengeCompletedValue longLongValue] + [completedValue longLongValue]) > [[challenge challengeGoal] longLongValue]) {
         [challenge setIsCompleted:[NSNumber numberWithBool:YES]];
         [challenge setSectionIdentifierForChallenge:@"Completed Challenges"];
-        *messsage = @"Your challenge has been successfully completed";
+        // Congratulations Message
+        *messsage = @"Congratulations, you've met your target and completed this challenge!";
     }
     NSMutableOrderedSet *activitiesArray = [[NSMutableOrderedSet alloc] initWithOrderedSet:[challenge activities]];
     Activity *activity = [self.entityManager insertEntityWithName:NSStringFromClass([Activity class])];

@@ -83,15 +83,19 @@
 
 - (IBAction)valueChanged:(id)sender {
     UISegmentedControl *segmentControl = (UISegmentedControl *)sender;
+    NSString *defaultValue = @"0";
     
     NSString *title = [segmentControl titleForSegmentAtIndex:[segmentControl selectedSegmentIndex]];
     
     [self.txtCondition1 setHidden:NO];
+    [self.txtCondition1 setText:defaultValue];
+    [self.profileCellDelegate setValueForCell:self withValue:defaultValue];
     [self.lblCondition1 setHidden:NO];
     [self.txtCondition1 setReturnKeyType:UIReturnKeyDone];
     
-    
     [self.txtCondition2 setHidden:YES];
+    [self.txtCondition2 setText:defaultValue];
+    [self.profileCellDelegate setValueForCell:self withValue:defaultValue];
     [self.lblCondition2 setHidden:YES];
     [self.txtCondition2 setReturnKeyType:UIReturnKeyDone];
     
@@ -134,6 +138,7 @@
         return [textField resignFirstResponder];
     }
 }
+
 - (BOOL)textField:(UITextField *)textField shouldChangeCharactersInRange:(NSRange)range replacementString:(NSString *)string {
     NSString *strValue = [textField text];
     if (string.length == 0) {
