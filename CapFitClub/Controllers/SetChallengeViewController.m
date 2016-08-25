@@ -271,8 +271,10 @@
         [setChallengeGoalCell setSegmentWithItems:[challengeGoals objectForKey:[[CommonFunctions getNameForChallengeType:[self.challenge challengeType]] lowercaseString]]];
         [setChallengeGoalCell setGoal:[self.challenge challengeGoal] withGoalUnit:[self.challenge challengeGoalUnit]];
         [setChallengeGoalCell setUserInteractionEnabled:self.canEditChallenge];
-        [self.challenge setChallengeGoal:_initialChallengeGoal];
-        [self.challenge setChallengeGoalUnit:_initialChallengeGoalUnit];
+        if(_initialChallengeGoalUnit != Nil || _initialChallengeGoalUnit != NULL){
+            [self.challenge setChallengeGoal:_initialChallengeGoal];
+            [self.challenge setChallengeGoalUnit:_initialChallengeGoalUnit];
+        }
         return setChallengeGoalCell;
     } else if (indexPath.row == 5) {
         ProfileViewCell *pickDateCell = (ProfileViewCell *)[tableView dequeueReusableCellWithIdentifier:@"PickDateCell" forIndexPath:indexPath];
